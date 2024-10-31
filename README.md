@@ -1,5 +1,122 @@
-# EnterpriseGradeTestAutomationFramework
-![image](https://github.com/Rupesh253/EnterpriseGradeTestAutomationFramework/assets/18684949/a9bf5b9b-33da-4c7e-8b3b-35e4f2b43386)
+# EnterpriseGradeTestAutomationFramework FOLDER TREE
+```
+├── API/
+│   ├── TestArtifacts/
+│   │   ├── Logs/
+│   │   │   └── ClientExecution.log
+│   │   ├── Reports/
+│   │   │   └── testExe_Android11.0_20220830T205439536.json
+│   │   
+│   ├── TestAuxiliary/
+│   ├── TestCases/
+│   │   ├── Resource1TestCases/
+│   │   │   └── Resource1.cs
+│   │   ├── Resource2TestCases/
+│   │   │   └── Resource2.cs
+│   │   └── API_Initializer.cs
+│   ├── TestData/
+│   │   ├── Resource1Data/
+│   │   │   └── Resource1Data.json
+│   │   └── Resource2Data/
+│   │       └── Resource2Data.json
+│   ├── TestExecution/
+│   ├── TestResources/
+│   │   ├── Resource1/
+│   │   │   ├── Resource1.cs
+│   │   │   └── Resource1Schema.json
+│   │   └── Resource2/
+│   │       ├── Resource2.cs
+│   │       └── Resource2Schema.json
+│      
+├── Common/
+│   ├── Abstractions/
+│   │   ├── IDefect.cs
+│   │   ├── IPublisher.cs
+│   │   ├── ITestCase.cs
+│   │   └── ITestCycle.cs
+│   ├── Concretes/
+│   │   ├── Defect.cs
+│   │   ├── Publisher.cs
+│   │   ├── TestCase.cs
+│   │   └── TestCycle.cs
+│   └── GlobalHelper.cs
+├── Mobile/
+│   ├── TestArtifacts/
+│   │   ├── ExecutionMedia/
+│   │   ├── Logs/
+│   │   │   ├── AppiumServerLogs.log
+│   │   │   └── ClientExecutionLogs.log
+│   │   ├── Reports/
+│   │   │   └── testExe_Android11.0_20220830T205439536.json
+│   │   ├── Standards/
+│   │   
+│   ├── TestAuxiliary/
+│   │   ├── Config.json
+│   │   ├── DriverOperations.cs
+│   │   ├── ElementOperations.cs
+│   │   └── Setup.cs
+│   ├── TestCases/
+│   │   ├── Screen1TestCases/
+│   │   │   └── Screen1.cs
+│   │   ├── Screen2TestCases/
+│   │   │   └── Screen2.cs
+│   │   └── Mobile_Initializer.cs
+│   ├── TestData/
+│   │   ├── Screen1Data/
+│   │   │   └── Screen1Data.json
+│   │   └── Screen2Data/
+│   │       └── Screen2Data.json
+│   ├── TestExecution/
+│   ├── TestScreens/
+│   │   ├── Screen1/
+│   │   │   └── Screen1.cs
+│   │   └── Screen2/
+│   │       └── Screen2.cs  
+├── Web/
+│   ├── TestArtifacts/
+│   │   ├── ExecutionMedia/
+│   │   ├── Logs/
+│   │   │   ├── ClientExecutionLogs.log
+│   │   │   └── DriverServerExecutionLogs.log
+│   │   ├── Reports/
+│   │   │   └── testExe_WindowsChrome11.0_20220830T205439536.json
+│   │   ├── Standards/
+│   │ 
+│   ├── TestAuxiliary/
+│   │   ├── Config.json
+│   │   ├── DriverOperations.cs
+│   │   ├── ElementOperations.cs
+│   │   └── Setup.cs
+│   ├── TestCases/
+│   │   ├── Page1TestCases/
+│   │   │   └── Page1.cs
+│   │   ├── Page2TestCases/
+│   │   │   └── Page2.cs
+│   │   └── Web_Initializer.cs
+│   ├── TestData/
+│   │   ├── Page1Data/
+│   │   │   └── Page1Data.json
+│   │   └── Page2Data/
+│   │       └── Page2Data.json
+│   ├── TestExecution/
+│   │   ├── 0FetchedTestCases.json
+│   │   ├── 1AdapterTestCases.json
+│   │   ├── 2ExecutionTestCases.json
+│   │   ├── 3PublishedTestCasesStatus.json
+│   │   ├── DotnetCommnad.txt
+│   │   ├── LastExecutionResult.json
+│   │   └── Nunit3Command.txt
+│   ├── TestPages/
+│   │   ├── Page1/
+│   │   │   └── Page1.cs
+│   │   └── Page2/
+│   │       └── Page2.cs
+├── app.config
+├── log4net.config
+├── PilotEGTAF.csproj
+└── Usings.cs
+```
+
 # Framework Walkthrough via Logs
 ```
 2024-10-31 17:20:41,273 INFO-|_____________________________________________________________________________________________
@@ -487,5 +604,9 @@ Advanced Settings that you can play for optimization:
   "waitForIdleTimeout": 10000,
   "mjpegServerFramerate": 10
 }
+```
+![image](https://github.com/Rupesh253/EnterpriseGradeTestAutomationFramework/assets/18684949/a9bf5b9b-33da-4c7e-8b3b-35e4f2b43386)
+
+
 ```
 
